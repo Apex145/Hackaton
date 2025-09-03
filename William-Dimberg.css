@@ -2,13 +2,25 @@
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
       background-color: #f4f4f4;
+      text-align: center;
+      
     }
+    
+    ul {
+  list-style-position: inside;
+  text-align: center;
+   }
 
     nav {
       background-color: #1e1e2f;
       padding: 1rem 2rem;
       display: flex;
       justify-content: space-between;
+      align-items: center;
+    }
+
+
+    #list {
       align-items: center;
     }
     
@@ -19,6 +31,12 @@
     #Startsidan:hover {
         color: gold;
     }
+
+    #bild {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   }
 
     #bild {
         max-width: 10%;
