@@ -1,11 +1,33 @@
-.lista {
-            container: flex;
+
+body {
+            width: fit-content;
+            justify-content: center;
             border: 2px solid blue;
             padding: 10px;
-            margin: 10px; 
+            margin: 20px auto; 
+            text-align: center;
+            color: black;
+            display: flex
+            
+            
+        }
+
+.links {
+    
+    border: 2px solid red;
+    padding: 10px;
+    margin: 20px auto;
+    width: fit-content;
+    text-align: center;
+
 }
 
-.medium-image{
-    height:auto;
-    width:200px
+
+    
+    
+
+
+.text {
+    text-align: center;
+
 }
