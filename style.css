@@ -1,19 +1,29 @@
 
-body{
+body {
 background-color: black;
+ color: white; 
+font-family: verdana;
 
 }
-h1{
+h1 {
 color: gold;
 text-align: center;
 
 }
-p{
+p {
 
-    font-family: verdana;
+    font-family: white;
     font-size: 25px;
+    text-align: center;
 }
-=======
+div {
+    text-align: center;
+}
+.center {
+    align-items: center;
+}
+
+
 .medium-image{
     width:200px;
     height:auto;
