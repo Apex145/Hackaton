@@ -1,0 +1,12 @@
+.text {
+    font-style: italic;
+    color: black;
+    size: 10px;
+    font-size: 15px
+    
+
+}
+
+.container {
+    border: solid green 2px;
+}
