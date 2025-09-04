@@ -1,13 +1,7 @@
-
-body{
-background-color: black;
-
-}
 h1{
-color: gold;
-text-align: center;
-
+color: black;
 }
+
 p{
 
     font-family: verdana;
@@ -17,8 +11,9 @@ p{
 .medium-image{
     width:200px;
     height:auto;
-    border-radius: 10px;   
+    border-radius: 10px;  
 }
+
 
 body {
   font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
