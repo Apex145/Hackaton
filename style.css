@@ -1,12 +1,53 @@
-.text {
-    font-style: italic;
-    color: black;
-    size: 10px;
-    font-size: 15px
-    
 
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.container {
-    border: solid green 2px;
+nav {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.1rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #00bcd4;
+  transition: width 0.3s ease;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+nav a:hover::after {
+  width: 100%;
 }
